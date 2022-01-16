@@ -1,0 +1,95 @@
+.title {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first {
+  width: calc(25% - 3px);
+  border-left: 3px solid lightgrey;
+}
+
+.second {
+  width: calc(50% - 3px);
+  border-left: 3px solid lightgrey;
+}
+
+.third {
+  width: calc(25% - 6px);
+  border-left: 3px solid lightgrey;
+  border-right: 3px solid lightgrey;
+}
+
+.fourth {
+  width: calc(25% - 3px);
+  border-bottom: 3px solid black;
+  border-left: 3px solid lightgrey;
+}
+
+.topics {
+  width: calc(75% - 6px);;
+  border-bottom: 3px solid black;
+  border-left: 3px solid lightgrey;
+  border-right: 3px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.article-title {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+.article {
+  border-top: 3px solid black;
+}
+
+.article-p {
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.corgie-img {
+  padding: 0 10px;
+  /* Pentru a centra o imagine din un flex, trebuie sa folosim si display block */
+  display: block;
+  margin: 0 auto;
+}
+
+.topic {
+  margin: 0;
+  height: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(100, 100, 100);
+  padding: 13px 0 10px 20px;
+  font-size: 35px;
+}
+
+.politics {
+  background: lightcoral;
+}
+
+.technology {
+  background: lightgreen;
+}
+
+.local {
+  background: lightskyblue;
+}
+
+.opinion {
+  background: lightyellow;
+}
+
+.sports {
+  background: mediumpurple;
+}
